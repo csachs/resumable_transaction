@@ -236,7 +236,7 @@ class Transaction:
 def main():
     import sys
     if len(sys.argv) < 3:
-        print("Usage: <script> <inspect,replay> <transaction.json> [python file]")
+        print("Usage: <script> <inspect,resume> <transaction.json> [python file]")
         return
 
     action, file_name = sys.argv[1], sys.argv[2]
